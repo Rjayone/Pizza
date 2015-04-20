@@ -1,0 +1,47 @@
+.make-yourself {
+	   text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50p;
+	   font-size: 48pt;
+	   font-family: "Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+	font-weight: 100;
+	color: #0f0f0f;
+}
+
+.make-yourself-description {
+	width: 670px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	font-size: 20pt;
+}
+
+.manual-1 {
+	width: 65%;
+	margin-top: 30px;
+	font-size: 16pt;
+	font-weight: 200;
+	text-align: left;
+	
+	margin-left: 15%;
+	padding-top: 40px;
+	border-top: 1px solid #e3e3e3;
+}
+
+.manual-2 {
+	width: 65%;
+	margin-top: 20px;
+	font-size: 16pt;
+	font-weight: 200;
+	text-align: left;
+	
+	margin-left: 15%;
+}
+
+.button {
+	width: 10%;
+	height: 5%;
+	border: 2px solid #65ffa7ff;
+	border-radius: 5px;
+	margin-left: 5%;
+}
