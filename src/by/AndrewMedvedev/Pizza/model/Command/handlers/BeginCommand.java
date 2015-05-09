@@ -12,6 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 public class BeginCommand implements Command{
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
-        return "make.jsp";
+        return "jsp/make.jsp";
     }
 }

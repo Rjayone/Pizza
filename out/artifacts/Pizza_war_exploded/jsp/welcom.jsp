@@ -9,8 +9,8 @@
 <html>
 <head>
   <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css" />
-  <link rel="stylesheet" type="text/css" href="css/content.css" />
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../css/content.css" />
   <title>
     Misha Pizza
   </title>
@@ -38,12 +38,11 @@
       3. Проверьте правилность заказа. Подтвердите заказ с указанной суммой. После этого с вами свяжется курьер и уточнит время доставки.
     </div>
   </div>
+  <form name="Begin" action="controller" method="post">
+    <div>
+      <button type="submit" class="button" name="command" value="begin" style="background-color: transparent; border: 0"/>
+    </div>
+  </form>
 </div>
-<form name="Begin" action="controller" method="post">
-  <div>
-    <button type="submit" class="button" name="command" value="begin" style="background-color: transparent; border: 0"/>
-  </div>
-</form>
-<%--<div class="button"></div>--%>
 </body>
 </html>

@@ -34,13 +34,11 @@
 	font-size: 16pt;
 	font-weight: 200;
 	text-align: left;
-	
 	margin-left: 15%;
 }
 
 .button {
-	background-image: url("../img/begin_button.png");
-	background-repeat: no-repeat;
+	background: url("../img/begin_button.png") no-repeat;
 	margin-left: 45%;
 	margin-top: 50px;
 	margin-bottom: 100px;
