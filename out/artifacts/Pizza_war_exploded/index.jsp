@@ -7,10 +7,9 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title></title>
-  </head>
-  <body>
-  Hello
-  </body>
+<head>
+</head>
+<body>
+  <jsp:forward page="/jsp/welcom.jsp"/>
+</body>
 </html>
