@@ -25,6 +25,9 @@ function makeDraggable(element){
 		var rect = document.querySelector('.workplace').getBoundingClientRect();
 		if(dragging && isCoordInRect(rect, e.clientX, e.clientY)){
 			addComponent(element);
+			element.style.display = 'none';
+		} else {
+			element.style.position = '';
 		}
 		dragging = false;
 	});
@@ -42,5 +45,9 @@ function isCoordInRect(rect, x, y){
 }
 
 function addComponent(element){
-	;
+	var div = document.createElement('div');
+	div.className = 'component';
+//	element.getAttribute('name');
+	div.style.backgroundImage = 'url(../img/components/' + element.name + ')';
+	document.querySelector('.workplace').appendChild(div);
 }

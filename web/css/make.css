@@ -3,7 +3,6 @@
 	height: 100%;
 	position: absolute;
 	left: 0;
-	border:solid 1px red;
 	z-index: 900;
 }
 .components-side-bar img {
@@ -11,7 +10,6 @@
 	width:100px;
 	display:block;
 	margin-top:20px;
-	border:solid 1px red;
 }
 
 .workplace{
@@ -26,11 +24,18 @@
 	margin-top:40px;
 	width:70%;
 	position: absolute;
+	z-index:-1;
 }
 
 .workplace .component {
+	margin-left:-300px;
 	width:70%;
 	height:400px;
+	display:inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
 }
 
 .calculation{
