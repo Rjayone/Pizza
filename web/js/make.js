@@ -35,7 +35,6 @@ function makeDraggable(element){
 		element.style.top  = e.clientY - y + 'px';
 		element.style.left = e.clientX - x + 'px';
 
-<<<<<<< HEAD
 		var rect = element.getBoundingClientRect();
 		x = e.clientX - rect.left;
 		y = e.clientY - rect.top;
@@ -61,10 +60,8 @@ function makeDraggable(element){
 			console.log(timePassed);
 			element.style.left += timePassed / 5 - 'px';
 		}
-=======
 		// делаем полупрозрачным на время перетаскивания
 		element.style.opacity = 0.7;
->>>>>>> origin/master
 	});
 
 	document.body.addEventListener('mouseup', function(e){
