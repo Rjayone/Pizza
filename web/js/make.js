@@ -1,5 +1,6 @@
 window.addEventListener('load', function(){
 	// запустится после загрузки страницы
+	document.forms["updatePrice"].submit();
 
 	var components = document.querySelectorAll('.components-side-bar img');
 	for(var i = 0; i < components.length; i++){
@@ -20,7 +21,30 @@ function makeDraggable(element){
 		var rect = element.getBoundingClientRect();
 		x = e.clientX - rect.left;
 		y = e.clientY - rect.top;
+
+		//Простая анимация
+		var start = Date.now();
+		var timer = setInterval(function () {
+			// вычислить сколько времени прошло с начала анимации
+			var timePassed = Date.now() - start;
+			if (timePassed >= 1000 || dragging == false) {
+				clearInterval(timer); // конец через 2 секунды
+				return;
+			}
+
+			// рисует состояние анимации, соответствующее времени timePassed
+			draw(timePassed);
+
+		}, 10);
+
+		// в то время как timePassed идёт от 0 до 2000
+		// left принимает значения от 0 до 400px
+		function draw(timePassed) {
+			console.log(timePassed);
+			element.style.left += timePassed / 5 - 'px';
+		}
 	});
+
 	document.body.addEventListener('mouseup', function(e){
 		var rect = document.querySelector('.workplace').getBoundingClientRect();
 		if(dragging && isCoordInRect(rect, e.clientX, e.clientY)){
