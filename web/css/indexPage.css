@@ -38,7 +38,7 @@ body {
 	background-size: 100%;
 	width: 100%;
 	height: 50%;	
-	position: top;
+	position: static;
 	background-image: url(../img/Pizza.jpg);
 	background-repeat: no-repeat;
 	background-position-y: -180px;

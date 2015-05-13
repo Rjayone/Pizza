@@ -2,10 +2,12 @@ var components = [], // массив из добавленных компоне�
 	workplace, // .workplace
 	calculation; // .calculation
 
-window.addEventListener('load', function(){
+window.addEventListener('onload', function(){
 	// запустится после загрузки страницы
-	document.forms["updatePrice"].submit();
+	//document.forms["updatePrice"].submit();
 
+
+	});
 	workplace = document.querySelector('.workplace');
 	calculation = document.querySelector('.calculation');
 
@@ -24,6 +26,7 @@ function makeDraggable(element){
 		y = 0;
 
 	element.addEventListener('mousedown', function(e){
+		Console.log("drag");
 		var rect = element.getBoundingClientRect();
 		// считаем координаты мыши относительно начала объекта (где 0,0 - левая верхняя точка объекта)
 		x = Math.round(e.clientX - rect.left); // round -- округление

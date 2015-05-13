@@ -1,16 +1,36 @@
+* { margin: 0;
+	padding: 0;
+}
+
+.component-price {
+	text-align: center;
+	width: 20%;
+}
+
 .components-side-bar{
 	width: 20%;
 	height: 100%;
 	position: absolute;
 	left: 0;
 	z-index: 900;
+	border: solid 1px rgb(208, 208, 208);
+	box-shadow: -5px 0px 111px -43px black inset;
 }
 .components-side-bar img {
-	margin:auto;
-	width:100px;
-	display:block;
-	margin-top:20px;
-	border:solid 1px red;
+	margin: auto;
+	width: 100px;
+	display: block;
+	margin-top: 20px;
+	border: solid 1px rgb(208, 208, 208);
+	border-radius: 10px;
+	background-color: #f0f0f0;
+}
+.components-side-bar p {
+	background-color: red;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+
 }
 
 .workplace{

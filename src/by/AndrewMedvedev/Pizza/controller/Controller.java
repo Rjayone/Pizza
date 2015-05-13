@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  * Created by Andrew on 09.05.2015.
  * Web-Servlet
  */
-@WebServlet(name = "controller")
+@WebServlet(name = "Controller", urlPatterns = {"/make"})
 public class Controller extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.requestHandler(request, response);
@@ -32,6 +32,7 @@ public class Controller extends HttpServlet {
 
         if(command != null)
             page = command.execute(request, response);
+        //else return;
         request.getRequestDispatcher(page).forward(request, response);
     }
 }

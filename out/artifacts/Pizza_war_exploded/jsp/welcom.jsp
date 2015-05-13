@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="../css/index.css" />
-  <link rel="stylesheet" type="text/css" href="../css/content.css" />
+<!--   <meta charset="utf-8"/> -->
+  <link rel="stylesheet" type="text/css" href="../css/indexPage.css" />
+  <link rel="stylesheet" type="text/css" href="../css/descr.css" />
   <title>
     Misha Pizza
   </title>
@@ -38,9 +38,9 @@
       3. Проверьте правилность заказа. Подтвердите заказ с указанной суммой. После этого с вами свяжется курьер и уточнит время доставки.
     </div>
   </div>
-  <form name="Begin" action="controller" method="post">
+  <form name="Begin" action="make" method="post">
     <div>
-      <button type="submit" class="button" name="command" value="begin" style="background-color: transparent; border: 0"/>
+      <input type="submit" class="button" name="command" value="begin" style="background-color: transparent; border: 0"/>
     </div>
   </form>
 </div>

@@ -11,6 +11,8 @@ public class CommandFactory {
     static public Command receiveHandler(HttpServletRequest request) {
         String action = request.getParameter("command");
         Command command = null;
+        if(action == null)
+            return null;
         switch (action) {
             case "begin": command = new BeginCommand();
         }
