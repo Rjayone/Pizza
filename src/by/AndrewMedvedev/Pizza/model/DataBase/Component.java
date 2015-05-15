@@ -7,6 +7,9 @@ public class Component {
     private int id;
     private String name;
     private int price;
+    private String imgPath;
+    private String layer;
+    private String category;
 
     public int getId() {
         return id;
@@ -20,6 +23,18 @@ public class Component {
         return price;
     }
 
+    public String getImgPath() {
+        return imgPath;
+    }
+
+    public String getLayer() {
+        return layer;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -30,5 +45,17 @@ public class Component {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    public void setImgPath(String imgPath) {
+        this.imgPath = imgPath;
+    }
+
+    public void setLayer(String layer) {
+        this.layer = layer;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 }

@@ -40,7 +40,7 @@
   </div>
   <form name="Begin" action="make" method="post">
     <div>
-      <input type="submit" class="button" name="command" value="begin" style="background-color: transparent; border: 0"/>
+      <button type="submit" class="button" name="command" value="begin" style="background-color: transparent; border: 0"/>
     </div>
   </form>
 </div>

@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4ea78732-651d-43c7-a751-466e3fa0602b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_22_bin.xml" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\css\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\css\index.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\jsp\welcom — копия.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\production\Pizza\by\AndrewMedvedev\Pizza\model\Command\handlers\BeginCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\css\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\css\index.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\jsp\welcom — копия.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/controller/Controller.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\bekon.jpg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\bekon.jpg.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/DataBase/Component.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/DataBase/Component.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/model/DataBase/Component.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/model/DataBase/Component.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pizza.iml" afterPath="$PROJECT_DIR$/Pizza.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/css/make.css" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/css/make.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/make.css" afterPath="$PROJECT_DIR$/web/css/make.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/make.html" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/make.html" />
@@ -31,8 +29,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/make.js" afterPath="$PROJECT_DIR$/web/js/make.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/make.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/make.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/make.jsp" afterPath="$PROJECT_DIR$/web/jsp/make.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/welcom.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/welcom.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/welcom.jsp" afterPath="$PROJECT_DIR$/web/jsp/welcom.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -55,6 +51,13 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_TOOLBAR" value="true" />
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Pizza" />
@@ -64,9 +67,12 @@
       <file leaf-file-name="make.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/make.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2414">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1190">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!block;n#makeDraggable#0" expanded="false" />
+                <element signature="n#!!block;n#isCoordInRect#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +80,8 @@
       <file leaf-file-name="BeginCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="527">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="527">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,45 +89,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBaseConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java">
+      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1071">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBaseQuery.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java">
+      <file leaf-file-name="welcom.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/welcom.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="922" max-vertical-offset="1479">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1431439827272" expanded="true" signature="740:825" placeholder="CREATE TABLE..price..." />
-                <marker date="1431439827272" expanded="true" signature="740:827" placeholder="CREATE TABLE..IF..." />
-                <marker date="1431439827272" expanded="true" signature="868:1070" placeholder="CREATE TABLE..IF..." />
-                <marker date="1431439827272" expanded="true" signature="2040:2063" placeholder="SELECT * FRO..Sticker..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="918">
+              <caret line="42" column="71" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,9 +112,35 @@
       <file leaf-file-name="make.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/make.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="799">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state vertical-scroll-proportion="-5.3846154" vertical-offset="489" max-vertical-offset="969">
+              <caret line="37" column="82" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="595">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseQuery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1351" max-vertical-offset="1768">
+              <caret line="79" column="73" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1431639914084" expanded="true" signature="744:946" placeholder="CREATE TABLE..IF..." />
+                <marker date="1431639914084" expanded="true" signature="1843:1866" placeholder="SELECT * FRO..Sticker..." />
+                <marker date="1431639914084" expanded="true" signature="2667:2701" placeholder="SELECT id FR..component..." />
+                <marker date="1431639914084" expanded="true" signature="2667:2702" placeholder="SELECT * FRO..component..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,9 +148,33 @@
       <file leaf-file-name="CommandFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="510">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="714">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddComponent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66" vertical-offset="161" max-vertical-offset="561">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,18 +193,20 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/css/content.css" />
         <option value="$PROJECT_DIR$/web/css/indexPage.css" />
-        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/web/jsp/welcom.jsp" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Price.java" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java" />
         <option value="$PROJECT_DIR$/web/css/make.css" />
         <option value="$PROJECT_DIR$/web/js/make.js" />
-        <option value="$PROJECT_DIR$/web/jsp/make.jsp" />
-        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java" />
-        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Price.java" />
-        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java" />
+        <option value="$PROJECT_DIR$/web/jsp/welcom.jsp" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" />
-        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/web/jsp/make.jsp" />
       </list>
     </option>
   </component>
@@ -216,7 +251,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,6 +294,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -269,6 +321,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataBase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,6 +430,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -996,11 +1053,15 @@
       <workItem from="1431422152230" duration="2131000" />
       <workItem from="1431424847623" duration="4913000" />
       <workItem from="1431437746939" duration="1655000" />
+      <workItem from="1431543411056" duration="6482000" />
+      <workItem from="1431593534163" duration="4012000" />
+      <workItem from="1431634937502" duration="5447000" />
+      <workItem from="1431669328191" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36851000" />
+    <option name="totallyTimeSpent" value="53448000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1023,8 +1084,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1044,18 +1105,49 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24925596" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40032154" sideWeight="0.7889561" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3118971" sideWeight="0.7889561" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2909968" sideWeight="0.21104388" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16398714" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3118971" sideWeight="0.7889561" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22025724" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27009645" sideWeight="0.7125567" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24925596" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1077,25 +1169,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1104,36 +1187,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="459">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/make.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="921" max-vertical-offset="1343">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/indexPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1003">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
@@ -1362,9 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1372,14 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="527">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07746479" vertical-offset="169" max-vertical-offset="595">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -1398,18 +1440,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/welcom.jsp">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.878553" vertical-offset="340" max-vertical-offset="918">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding />
+        <state vertical-scroll-proportion="1.060241" vertical-offset="651" max-vertical-offset="24956">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="752" max-vertical-offset="11713">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7125" vertical-offset="582" max-vertical-offset="60010">
+          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="395" max-vertical-offset="1122">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/make.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1683">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.2125" vertical-offset="255" max-vertical-offset="1836">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/apache-tomcat-7.0.61/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31733334" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/welcom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="918">
+          <caret line="42" column="71" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/make.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1190">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!block;n#makeDraggable#0" expanded="false" />
+            <element signature="n#!!block;n#isCoordInRect#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1351" max-vertical-offset="1768">
+          <caret line="79" column="73" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1431639914084" expanded="true" signature="744:946" placeholder="CREATE TABLE..IF..." />
+            <marker date="1431639914084" expanded="true" signature="1843:1866" placeholder="SELECT * FRO..Sticker..." />
+            <marker date="1431639914084" expanded="true" signature="2667:2701" placeholder="SELECT id FR..component..." />
+            <marker date="1431639914084" expanded="true" signature="2667:2702" placeholder="SELECT * FRO..component..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1417,92 +1527,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/make.js">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="595">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="527">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/make.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="799">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state vertical-scroll-proportion="-5.3846154" vertical-offset="489" max-vertical-offset="969">
+          <caret line="37" column="82" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="459">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="510">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/sql/DriverManager.java">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4405797" vertical-offset="3316" max-vertical-offset="11713">
-          <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.060241" vertical-offset="651" max-vertical-offset="24956">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="527">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="714">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1071">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.66" vertical-offset="161" max-vertical-offset="561">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="922" max-vertical-offset="1479">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1431439827272" expanded="true" signature="740:825" placeholder="CREATE TABLE..price..." />
-            <marker date="1431439827272" expanded="true" signature="740:827" placeholder="CREATE TABLE..IF..." />
-            <marker date="1431439827272" expanded="true" signature="868:1070" placeholder="CREATE TABLE..IF..." />
-            <marker date="1431439827272" expanded="true" signature="2040:2063" placeholder="SELECT * FRO..Sticker..." />
           </folding>
         </state>
       </provider>

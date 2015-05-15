@@ -14,7 +14,7 @@ public class DataBaseConnection {
 
     private static final String LOGIN = "root";
     private static final String PASSWORD = "root";
-    private static final String CONECTION = "jdbc:mysql://localhost:3306/Pizza?useUnicode=true&characterEncoding=utf8";
+    private static final String CONECTION = "jdbc:mysql://localhost:3306/pizza?useUnicode=true&characterEncoding=utf8";
 
     private Connection connection = null;
     private Statement  statement  = null;
@@ -34,13 +34,14 @@ public class DataBaseConnection {
      * Закрытый метод. Выполняет открытие соединения для возможности взаимодействия с таблицей.
      * @throws SQLException
      */
-    private void openConnection()
-    {
+    private void openConnection() {
         try {
+            Class.forName("com.mysql.jdbc.Driver");
             connection = DriverManager.getConnection(CONECTION, LOGIN, PASSWORD);
             statement = connection.createStatement();
-        } catch (SQLException exp) {
+        } catch (SQLException | ClassNotFoundException exp) {
             exp.getStackTrace();
+            System.err.print(exp.getMessage());
         }
     }
 

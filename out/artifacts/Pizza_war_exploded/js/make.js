@@ -3,21 +3,23 @@ var components = [], // массив из добавленных компоне�
 	calculation; // .calculation
 
 window.addEventListener('onload', function(){
-	// запустится после загрузки страницы
-	//document.forms["updatePrice"].submit();
-
-
-	});
 	workplace = document.querySelector('.workplace');
 	calculation = document.querySelector('.calculation');
-
-	// это локальная переменная
-	var components = document.querySelectorAll('.components-side-bar img');
+	components = document.querySelectorAll('.component-cell img');
 	for(var i = 0; i < components.length; i++){
 		makeDraggable(components[i]);
 	}
-
+	Console.log(components.length);
 });
+
+var element = [];
+element = document.getElementById('cell');
+for(var i = 0; i < element.length; i++) {
+	element[i].addEventListener('onmousedown', function(e){
+		Console.log("make addeatable");
+		addComponent(element[i]);
+	});
+}
 
 function makeDraggable(element){
 

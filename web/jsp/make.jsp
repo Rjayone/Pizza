@@ -12,26 +12,36 @@
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="../css/make.css" />
-	<title>
-		Make your pizza
-	</title>
 	<script src="../js/make.js"></script>
 	<script src="../js/jquery.min.js"></script>
+	<title>Make your pizza</title>
+
 </head>
 <body>
-<!--   <form name="updatePrice" action="controller" method="post">
-      <input type="hiden" name="command" value="updatePrice"/>
-  </form> -->
 	<div class="components-side-bar" name="comprList">
-		${newString}
+		<div class="search">
+			<input type="text" style="width: 90%;">
+			<img src="../img/search.png" style="padding-left: 8px; position: fixed;"/>
+		</div>
 		<c:forEach var="component" items="${components}">
-			${component.}
+			<%--<c:if test="${component.category == 'Cheese'}">--%>
+				<%--<div class="category">--%>
+					<%--${component.category}--%>
+				<%--</div>--%>
+			<%--</c:if>--%>
+			<div class="component-cell" id="cell">
+				<div> <img src="${component.imgPath}"  draggable="false" layer="${component.layer} price="${component.price} id="${component.id}" name="${component.name}" /></div>
+				<div class="info">
+					<p class="title">${component.name}</p>
+					<p class="price" name="price" value="${component.price}">${component.price} руб.</p>
+					<form action="make">
+						<button type="submit" name="command" value="addComponent" class="add-button"></button>
+						<input type="hidden" name="id" value="${component.id}"/>
+					</form>
+				</div>
+			</div>
 		</c:forEach>
-		<img src="../img/components/1cb017230f67.png" draggable="false" layer="815710_L7UKW.png" price="10" component="a"/>
-		<img src="../img/components/120214130615-120328183910-p-O-sir-gauda.png" draggable="false" layer="120214130615-120328183910-p-O-sir-gauda.png" price="10" component="b"/>
-		<img src="../img/components/Диетический-соевый-майонез.png" draggable="false" layer="Диетический-соевый-майонез.png" price="10" component="c"/>
-		<img src="../img/components/bazilik.png" draggable="false" layer="bazilik.png" price="15" component="d"/>
-	</div>
+		</div>
 	<div class="workplace" name="workplace">
 		<div style="background-image: url(../img/components/base.png)" class="component base"></div>
 <!--		<div style="background-image: url(../img/components/815710_L7UKW.png)" class="component"/> -->
