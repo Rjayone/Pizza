@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Created by Andrew on 15.05.2015.
+ *
  */
 public class AddComponent implements Command {
     @Override
@@ -17,7 +18,6 @@ public class AddComponent implements Command {
     }
 
     public AddComponent(int id) {
-        //get component from db by id
         Order order = Order.getInstance();
         if(order != null) {
             Component comp = order.getComponentFromTableById(id);

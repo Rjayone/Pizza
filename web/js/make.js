@@ -1,26 +1,21 @@
 var components = [], // массив из добавленных компонентов; содержит теги img с компонентами
 	workplace, // .workplace
 	calculation; // .calculation
+var order = [];
 
-window.addEventListener('onload', function(){
+
+//-------------------------------------------------------------------
+window.addEventListener('load', function(){
 	workplace = document.querySelector('.workplace');
 	calculation = document.querySelector('.calculation');
-	components = document.querySelectorAll('.component-cell img');
+	components = document.querySelectorAll('.component-cell');
 	for(var i = 0; i < components.length; i++){
-		makeDraggable(components[i]);
+		makeAdded(components[i]);
 	}
-	Console.log(components.length);
+	recalculate();
 });
 
-var element = [];
-element = document.getElementById('cell');
-for(var i = 0; i < element.length; i++) {
-	element[i].addEventListener('onmousedown', function(e){
-		Console.log("make addeatable");
-		addComponent(element[i]);
-	});
-}
-
+//-------------------------------------------------------------------
 function makeDraggable(element){
 
 	var dragging = false,
@@ -95,21 +90,33 @@ function makeDraggable(element){
 
 }
 
-function isCoordInRect(rect, x, y){
-	return x < rect.left + rect.width && x > rect.left && y < rect.top + rect.height && y > rect.top;
+//-------------------------------------------------------------------
+function makeAdded(element) {
+	var buttons  = element.getElementsByClassName('add-button');
+	if(buttons != null) {
+		for(var i = 0; i < buttons.length; i++)
+			buttons[i].addEventListener('mousedown', function(e){
+				addComponent(element);
+		});
+	}
 }
 
+//-------------------------------------------------------------------
 function addComponent(element){
+	//получаем параметры из сабдивов
+	//var info = element.getElementsByClassName('info');
+	var info = element.querySelector('.info');
 	var div = document.createElement('div');
-	div.className = 'component';
-	div.style.backgroundImage = 'url(../img/components/' + element.getAttribute('layer') + ')';
+	div.className = 'layered-component';
+	div.style.backgroundImage = 'url(' + info.getAttribute('layer') + ')';
 	workplace.appendChild(div);
 	element.layer = div;
 
-	components.push(element);
+	order.push(element);
 	recalculate();
 }
 
+//-------------------------------------------------------------------
 function delComponent(element){
 	workplace.removeChild(element.layer);
 	// обнуляем положение элемента (возвращаем в список доступных компонентов)
@@ -130,10 +137,12 @@ function delComponent(element){
 	recalculate();
 }
 
+//-------------------------------------------------------------------
 function recalculate(){
 	var price = 0;
-	for(var i = 0; i < components.length; i++){
-		price += Number(components[i].getAttribute('price'));
+	for(var i = 0; i < order.length; i++){
+		var info = order[i].querySelector('.price');
+		price += Number(info.getAttribute('value'));
 	}
-	calculation.textContent = price;
+	calculation.textContent = price + ' руб.';
 }

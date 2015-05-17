@@ -32,7 +32,8 @@ public class Controller extends HttpServlet {
 
         if(command != null)
             page = command.execute(request, response);
-        //else return;
+        if(page == null)
+            return;
         request.getRequestDispatcher(page).forward(request, response);
     }
 }

@@ -18,7 +18,7 @@ public class CommandFactory {
             case "begin": command = new BeginCommand(); break;
             case "addComponent":{
                 String id = request.getParameter("id");
-                command = new AddComponent(Integer.parseInt(id));
+                command = new AddComponent(Integer.parseInt(id)); break;
             }
         }
         return command;

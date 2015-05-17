@@ -23,27 +23,35 @@
 			<input type="text" style="width: 90%;">
 			<img src="../img/search.png" style="padding-left: 8px; position: fixed;"/>
 		</div>
+		<div class="sizes">
+			<div class="size"><div style="margin-top:17.5%;">18 см</div></div>
+			<div class="size"><div style="margin-top:17.5%;">24 cм</div></div>
+			<div class="size"><div style="margin-top:17.5%;">32 см</div></div>
+		</div>
+		<%String cat = "0";%>
 		<c:forEach var="component" items="${components}">
-			<%--<c:if test="${component.category == 'Cheese'}">--%>
-				<%--<div class="category">--%>
-					<%--${component.category}--%>
-				<%--</div>--%>
-			<%--</c:if>--%>
+			<c:set var="comp" value="${component.category}"/>
+			<% if(!cat.equals(pageContext.getAttribute("comp"))) {
+				cat = (String)pageContext.getAttribute("comp"); %>
+				<div class="group-title">
+					${component.categoryTitle}
+				</div>
+			<%}%>
 			<div class="component-cell" id="cell">
-				<div> <img src="${component.imgPath}"  draggable="false" layer="${component.layer} price="${component.price} id="${component.id}" name="${component.name}" /></div>
-				<div class="info">
-					<p class="title">${component.name}</p>
+				<div> <img src="${component.imgPath}"  draggable="false"/></div>
+				<div class="info" componentId="${component.id}" category="${component.category}" layer="${component.layer}">
+					<p class="title" title="${component.name}">${component.name}</p>
 					<p class="price" name="price" value="${component.price}">${component.price} руб.</p>
-					<form action="make">
-						<button type="submit" name="command" value="addComponent" class="add-button"></button>
+					<%--<form action="make">--%>
+						<button name="command" value="addComponent" class="add-button"></button>
 						<input type="hidden" name="id" value="${component.id}"/>
-					</form>
+					<%--</form>--%>
 				</div>
 			</div>
 		</c:forEach>
 		</div>
 	<div class="workplace" name="workplace">
-		<div style="background-image: url(../img/components/base.png)" class="component base"></div>
+		<%--<div style="background-image: url(../img/components/base.png)" class="component base"></div>--%>
 <!--		<div style="background-image: url(../img/components/815710_L7UKW.png)" class="component"/> -->
 	</div>
 	<div class="calculation" name="calculation">0</div>

@@ -60,15 +60,20 @@ public class DataBaseQuery {
         DataBaseConnection connection = DataBaseConnection.getInstance();
 
         try {
-            ResultSet result = connection.getStatement().executeQuery("SELECT * FROM component;");
+            ResultSet result = connection.getStatement().executeQuery("SELECT component.*, price.price, category.title" +
+                    " FROM component\n" +
+                    " INNER JOIN price on component.id = price.id\n" +
+                    " INNER JOIN category on categoryId = category.id" +
+                    " ORDER BY categoryId");
             while (result.next()) { // Допилить запрос на поулчение всех копонентов
                 Component comp = new Component();
                 comp.setId(result.getInt(1));
                 comp.setName(result.getString(2));
-                comp.setPrice(result.getInt(3));
-                comp.setImgPath(result.getString(4));
-                comp.setLayer(result.getString(5));
+                comp.setPrice(result.getInt(7));
+                comp.setImgPath(result.getString(3));
+                comp.setLayer(result.getString(4));
                 comp.setCategory(result.getString(6));
+                comp.setCategoryTitle(result.getString(8));
                 comps.add(comp);
             }
         } catch (SQLException e) {
@@ -80,6 +85,7 @@ public class DataBaseQuery {
         DataBaseConnection connection = DataBaseConnection.getInstance();
         try {
             ResultSet result = connection.getStatement().executeQuery("SELECT * FROM component WHERE ID = " + id);
+            result.next();
             if(result != null){
                 Component comp = new Component();
                 comp.setId(result.getInt(1));

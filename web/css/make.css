@@ -8,7 +8,7 @@
 }
 
 .components-side-bar{
-	width: 22%;
+	width: 25%;
 	height: 100%;
 	position: absolute;
 	left: 0;
@@ -21,6 +21,37 @@
 	padding: 5px;
 	background-color: #f0f0f0;
 	width: auto;
+}
+
+.components-side-bar .sizes {
+	height: 75px;
+	display: -webkit-box;
+}
+
+.components-side-bar .sizes .size {
+	display: table;
+	height: 100%;
+  	width: 32.8%;
+  	background-color: #f0f0f0;
+  	border: 1px solid;
+  	border-color: #E0E0E0;
+  	text-align: center;
+  	vertical-align: middle;
+  	font-size: 32;
+ 	color: #C2C2C2;
+ 	font-family: "Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+ }
+.components-side-bar .sizes .size:hover {
+	background-color: #c0c0c0;
+	color: white;
+}
+
+
+.components-side-bar .group-title {
+	margin: 15px;
+	font-size: 22;
+	color: #6c6c6c;
+	font-style: italic;
 }
 
 .component-cell {
@@ -62,7 +93,7 @@
 }
 
 .workplace{
-	width: 80%;
+	width: 75%;
 	height: 70%;
 	position: relative;
 	margin-left: 20%;
@@ -90,7 +121,7 @@
 .calculation{
 	width: 78%;
 	height:30%;
-	margin-left: 22%;
+	margin-left: 25%;
 	border-top: 1px solid #d3d3d3;
 
 	text-align: center;
@@ -99,4 +130,15 @@
 }
 
 
+.layered-component {
+	margin-top: 40px;
+	margin-left:-300px;
+	width:70%;
+	height:400px;
+	display:inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
 
+}

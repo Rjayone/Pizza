@@ -12,7 +12,9 @@ public class Order {
     /**
      * Реализаия синглтона
      */
-    private Order(){}
+    private Order(){
+        order = new ArrayList<>();
+    }
     private static Order instance = null;
     public static Order getInstance() {
         if(instance == null)
@@ -20,7 +22,7 @@ public class Order {
         return instance;
     }
 
-    private ArrayList<Component> order;
+    private ArrayList<Component> order = null;
 
 
     public void addComponent(Component comp) {

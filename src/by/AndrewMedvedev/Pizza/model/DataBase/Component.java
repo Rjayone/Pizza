@@ -2,6 +2,7 @@ package by.AndrewMedvedev.Pizza.model.DataBase;
 
 /**
  * Created by Andrew on 12.05.2015.
+ *
  */
 public class Component {
     private int id;
@@ -10,6 +11,7 @@ public class Component {
     private String imgPath;
     private String layer;
     private String category;
+    private String categoryTitle;
 
     public int getId() {
         return id;
@@ -35,6 +37,10 @@ public class Component {
         return category;
     }
 
+    public String getCategoryTitle() {
+        return categoryTitle;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -57,5 +63,9 @@ public class Component {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public void setCategoryTitle(String categoryTitle) {
+        this.categoryTitle = categoryTitle;
     }
 }
