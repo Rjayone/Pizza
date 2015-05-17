@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/make.css" />
 	<script src="../js/make.js"></script>
 	<script src="../js/jquery.min.js"></script>
-	<title>Make your pizza</title>
+	<title>PizzaMaker</title>
 
 </head>
 <body>
@@ -24,9 +24,9 @@
 			<img src="../img/search.png" style="padding-left: 8px; position: fixed;"/>
 		</div>
 		<div class="sizes">
-			<div class="size"><div style="margin-top:17.5%;">18 см</div></div>
-			<div class="size"><div style="margin-top:17.5%;">24 cм</div></div>
-			<div class="size"><div style="margin-top:17.5%;">32 см</div></div>
+			<div class="size" id="size-18"><div style="margin-top:17.5%;">18 см</div></div>
+			<div class="size" id="size-24"><div style="margin-top:17.5%;">24 cм</div></div>
+			<div class="size" id="size-32"><div style="margin-top:17.5%;">32 см</div></div>
 		</div>
 		<%String cat = "0";%>
 		<c:forEach var="component" items="${components}">

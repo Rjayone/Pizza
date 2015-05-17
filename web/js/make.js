@@ -2,6 +2,8 @@ var components = [], // массив из добавленных компоне�
 	workplace, // .workplace
 	calculation; // .calculation
 var order = [];
+var sizeK = 0;
+var selectedSize;
 
 
 //-------------------------------------------------------------------
@@ -11,6 +13,10 @@ window.addEventListener('load', function(){
 	components = document.querySelectorAll('.component-cell');
 	for(var i = 0; i < components.length; i++){
 		makeAdded(components[i]);
+	}
+	var sizeButtons = document.getElementsByClassName('size');
+	for(var i = 0; i < sizeButtons.length; i++) {
+		makeResizeable(sizeButtons[i], i);
 	}
 	recalculate();
 });
@@ -101,10 +107,48 @@ function makeAdded(element) {
 	}
 }
 
+//------------------------------------------------------------------
+
+function makeResizeable(element, i) {
+	element.addEventListener('click', function() {
+		if(i == 0) sizeK = 1;
+		if(i == 1) sizeK = 1.3;
+		if(i == 2) sizeK = 1.5;
+
+		if(selectedSize != null){
+			selectedSize.style.backgroundColor = '#f0f0f0';
+		}
+		selectedSize = element;
+		selectedSize.style.backgroundColor = 'rgb(194, 169, 169)';
+		selectedSize.style.color = 'white';
+
+		recalculate();
+	});
+}
+
 //-------------------------------------------------------------------
 function addComponent(element){
+	//Проверяем добавлена ли основа
+	var baseAdded = false;
+	if(order.length <= 0)
+		if(element.querySelector('.title').getAttribute('title') == 'Основа')
+			baseAdded = true;
+	for(var i = 0; i < order.length; i++) {
+		if(order[i].querySelector('.title').getAttribute('title') == 'Основа')
+		baseAdded = true;
+	}
+	if(!baseAdded) {
+		alert('Добавьте основу');
+		return;
+	}
+
+	//Проверяем было ли уже добавлено
+	if(checkForAdded(element.querySelector('.title').getAttribute('title'))) {
+		alert('Элемент был добавлен');
+		return;
+	}
+
 	//получаем параметры из сабдивов
-	//var info = element.getElementsByClassName('info');
 	var info = element.querySelector('.info');
 	var div = document.createElement('div');
 	div.className = 'layered-component';
@@ -114,6 +158,16 @@ function addComponent(element){
 
 	order.push(element);
 	recalculate();
+}
+
+//-------------------------------------------------------------------
+function checkForAdded(element) {
+	for(var i = 0; i < order.length; i++) {
+		var currentElementFromOrder = order[i].querySelector('.title').getAttribute('title');
+		if(currentElementFromOrder == element)
+			return true;
+	}
+	return false;
 }
 
 //-------------------------------------------------------------------
@@ -142,7 +196,7 @@ function recalculate(){
 	var price = 0;
 	for(var i = 0; i < order.length; i++){
 		var info = order[i].querySelector('.price');
-		price += Number(info.getAttribute('value'));
+		price += Number(info.getAttribute('value') * sizeK);
 	}
 	calculation.textContent = price + ' руб.';
 }

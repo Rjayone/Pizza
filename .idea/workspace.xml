@@ -5,19 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ea78732-651d-43c7-a751-466e3fa0602b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/Thumbs.db" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\120131111458-120327142428-p-O-oregano-sushenij.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\120214130615-120328183910-p-O-sir-gauda.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\120214130615-120328183910-p-O-sir-gauda.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\120328144247-120328193113-p-O-sir-parmezan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\121010154332-130122201937-p-O-kopchenaja-vetchina.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\1cb017230f67.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\3155250.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\4_(11).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\519077394.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\815710_L7UKW.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\Petrushka.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\Snovskaya.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\Varenaya_Doktorskaia_PSD_Fon_Virezan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\bazilik.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\bazilik.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\bekon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\cheese\155916.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\cheese\syr-poshehonskij-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\dushistyy-perets-molotyy-large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\other\10-09-416x312.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\other\chesnok-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\peressern.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\syr-chedder-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\veg\0_92e74_9a50d8ea_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\veg\ananas-43828660393-e1414875843511.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\veg\gScSr-KxVK0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\veg\perec-red-324x204.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\Диетический-соевый-майонез.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\Диетический-соевый-майонез.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\иорпропро.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/base.png" afterPath="$PROJECT_DIR$/web/img/components/base.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/cheese/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/cheese/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/other/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/other/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/veg/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/veg/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/make.css" afterPath="$PROJECT_DIR$/web/css/make.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/make.html" afterPath="$PROJECT_DIR$/web/jsp/make.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/make.js" afterPath="$PROJECT_DIR$/web/js/make.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/make.jsp" afterPath="$PROJECT_DIR$/web/jsp/make.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pizza.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,25 +75,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="make.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="make.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/make.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1071">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.24178404" vertical-offset="1206" max-vertical-offset="2295">
+              <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#makeDraggable#0" expanded="false" />
-                <element signature="e#739#1992#0" expanded="false" />
-                <element signature="n#!!block;n#delComponent#0" expanded="false" />
+                <element signature="e#919#2172#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="make.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="make.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/make.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15" vertical-offset="450" max-vertical-offset="1105">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state vertical-scroll-proportion="-16.576923" vertical-offset="45" max-vertical-offset="1105">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -77,8 +101,8 @@
       <file leaf-file-name="make.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/make.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="2533">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1903" max-vertical-offset="2533">
+              <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -122,11 +146,11 @@
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java" />
-        <option value="$PROJECT_DIR$/web/js/make.js" />
-        <option value="$PROJECT_DIR$/web/css/make.css" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" />
         <option value="$PROJECT_DIR$/web/jsp/make.jsp" />
+        <option value="$PROJECT_DIR$/web/css/make.css" />
+        <option value="$PROJECT_DIR$/web/js/make.js" />
       </list>
     </option>
   </component>
@@ -171,6 +195,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,7 +328,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -932,11 +956,12 @@
       <workItem from="1431634937502" duration="5447000" />
       <workItem from="1431669328191" duration="656000" />
       <workItem from="1431771088451" duration="17222000" />
+      <workItem from="1431859308425" duration="6393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70670000" />
+    <option name="totallyTimeSpent" value="77063000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -960,7 +985,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -974,7 +999,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16398714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27009645" sideWeight="0.7125567" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27009645" sideWeight="0.7125567" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1065,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
           <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,9 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="391">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
           <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,9 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="391">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
           <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,9 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="391">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1346,9 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4475" vertical-offset="127" max-vertical-offset="527">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1356,7 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="400">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,7 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8088643" vertical-offset="422" max-vertical-offset="918">
           <caret line="42" column="71" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,11 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32" vertical-offset="144" max-vertical-offset="595">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,31 +1410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/make.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1071">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!block;n#makeDraggable#0" expanded="false" />
-            <element signature="e#739#1992#0" expanded="false" />
-            <element signature="n#!!block;n#delComponent#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33170733" vertical-offset="0" max-vertical-offset="833">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/make.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="2533">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1448,11 +1430,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/make.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1903" max-vertical-offset="2533">
+          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/make.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15" vertical-offset="450" max-vertical-offset="1105">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state vertical-scroll-proportion="-16.576923" vertical-offset="45" max-vertical-offset="1105">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/make.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24178404" vertical-offset="1206" max-vertical-offset="2295">
+          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#makeDraggable#0" expanded="false" />
+            <element signature="e#919#2172#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
