@@ -1,0 +1,1 @@
+UPDATE pizzaOrder set phone = '+37529141136', count = 1 WHERE id = 1;

@@ -5,6 +5,8 @@
       <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.29/fastjson-1.1.29.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/fastjson-1.1.29-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

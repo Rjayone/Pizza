@@ -7,4 +7,12 @@
         <servlet-name>Controller</servlet-name>
         <servlet-class>by.AndrewMedvedev.Pizza.controller.Controller</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>MakeController</servlet-name>
+        <servlet-class>by.AndrewMedvedev.Pizza.controller.MakeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConfirmController</servlet-name>
+        <servlet-class>by.AndrewMedvedev.Pizza.controller.ConfirmController</servlet-class>
+    </servlet>
 </web-app>

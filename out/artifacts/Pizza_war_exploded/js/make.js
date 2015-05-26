@@ -4,13 +4,15 @@ var components = [], // массив из добавленных компоне�
 var order = [];
 var sizeK = 0;
 var selectedSize;
+var sendOrderData;
 
 
 //-------------------------------------------------------------------
 window.addEventListener('load', function(){
 	workplace = document.querySelector('.workplace');
-	calculation = document.querySelector('.calculation');
+	calculation = document.querySelector('.total-price');
 	components = document.querySelectorAll('.component-cell');
+	//sendOrder = document.querySelector('.send-order').addEventListener('click', sendOrder());
 	for(var i = 0; i < components.length; i++){
 		makeAdded(components[i]);
 	}
@@ -19,82 +21,11 @@ window.addEventListener('load', function(){
 		makeResizeable(sizeButtons[i], i);
 	}
 	recalculate();
+	sendOrderData = document.querySelector('.send-order');
+	sendOrderData.addEventListener('click', function() {
+		sendOrder();
+	});
 });
-
-//-------------------------------------------------------------------
-function makeDraggable(element){
-
-	var dragging = false,
-		x = 0,
-		y = 0;
-
-	element.addEventListener('mousedown', function(e){
-		Console.log("drag");
-		var rect = element.getBoundingClientRect();
-		// считаем координаты мыши относительно начала объекта (где 0,0 - левая верхняя точка объекта)
-		x = Math.round(e.clientX - rect.left); // round -- округление
-		y = Math.round(e.clientY - rect.top);
-
-		dragging = true;
-		element.style.position = 'absolute';
-		element.style.marginTop = '-25px';
-		element.style.top  = e.clientY - y + 'px';
-		element.style.left = e.clientX - x + 'px';
-
-		var rect = element.getBoundingClientRect();
-		x = e.clientX - rect.left;
-		y = e.clientY - rect.top;
-
-		//Простая анимация
-		var start = Date.now();
-		var timer = setInterval(function () {
-			// вычислить сколько времени прошло с начала анимации
-			var timePassed = Date.now() - start;
-			if (timePassed >= 1000 || dragging == false) {
-				clearInterval(timer); // конец через 2 секунды
-				return;
-			}
-
-			// рисует состояние анимации, соответствующее времени timePassed
-			draw(timePassed);
-
-		}, 10);
-
-		// в то время как timePassed идёт от 0 до 2000
-		// left принимает значения от 0 до 400px
-		function draw(timePassed) {
-			console.log(timePassed);
-			element.style.left += timePassed / 5 - 'px';
-		}
-		// делаем полупрозрачным на время перетаскивания
-		element.style.opacity = 0.7;
-	});
-
-	document.body.addEventListener('mouseup', function(e){
-		var rect = document.querySelector('.workplace').getBoundingClientRect();
-
-		if(dragging){ // перетаскивался именно текущий компонент, или же другой
-			if(isCoordInRect(rect, e.clientX, e.clientY)){
-				addComponent(element);
-				element.style.display = 'none'; // делаем компонент невидимым
-			}
-			else {
-				element.style.position = '';
-				element.style.marginTop = '20px';
-				element.style.opacity = 1;
-			}
-		}
-
-		dragging = false;
-	});
-
-	document.body.addEventListener('mousemove', function(e){
-		if(!dragging) return;
-		element.style.top  = e.clientY - y + 'px';
-		element.style.left = e.clientX - x + 'px';
-	});
-
-}
 
 //-------------------------------------------------------------------
 function makeAdded(element) {
@@ -198,5 +129,45 @@ function recalculate(){
 		var info = order[i].querySelector('.price');
 		price += Number(info.getAttribute('value') * sizeK);
 	}
-	calculation.textContent = price + ' руб.';
+	calculation.textContent = 'Итоговая стоимость: ' + price + ' руб.';
+
+	var form = $('#form');
+	var componentIds = [];
+	for(var i = 0; i < order.length; i++) {
+		componentIds.push(order[i].querySelector('.info').getAttribute('componentId'));
+	}
+	var json = JSON.stringify(componentIds);
+	form.submit(function () {
+		$.ajax({
+			type: form.attr('method'),
+			url:  form.attr('action'),
+			data: json,
+			success: function () {
+				alert('opa');
+
+			}
+		});
+
+		return false;
+	});
+}
+
+
+function sendOrder() {
+	var form = $('#form');
+	var componentIds = [];
+	for(var i = 0; i < order.length; i++) {
+		componentIds.push(order[i].querySelector('.info').getAttribute('componentId'));
+	}
+
+	var out = '';
+	for(var i = 0; i < componentIds.length; i++) {
+		out += componentIds[i];
+		if(i < componentIds.length - 1)
+			out += ',';
+	}
+	var input = $('#componentsId');
+	var size  = $('#size');
+	input.val(out);
+	size.val(sizeK);
 }

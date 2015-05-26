@@ -11,7 +11,6 @@ import java.util.ArrayList;
  * Класс предоставляет методы работы с базой данной
  */
 public class DataBaseQuery {
-
     static DataBaseQuery instance = null;
     public static DataBaseQuery getInstance() {
         if(instance == null) {
@@ -82,15 +81,21 @@ public class DataBaseQuery {
     }
 
     public Component selectComponentById(int id) {
+        //ToDo: Проверить правильность запроса
         DataBaseConnection connection = DataBaseConnection.getInstance();
         try {
-            ResultSet result = connection.getStatement().executeQuery("SELECT * FROM component WHERE ID = " + id);
+            ResultSet result = connection.getStatement().executeQuery("SELECT component.*, price.price, category.title" +
+                    " FROM component " +
+                    " INNER JOIN price on component.id = price.id" +
+                    " INNER JOIN category on categoryId = category.id" +
+                    " WHERE component.id = " + id +
+                    " ORDER BY categoryId");
             result.next();
             if(result != null){
                 Component comp = new Component();
                 comp.setId(result.getInt(1));
                 comp.setName(result.getString(2));
-                comp.setPrice(result.getInt(3));
+                comp.setPrice(result.getInt(7));
                 comp.setImgPath(result.getString(4));
                 comp.setLayer(result.getString(5));
                 comp.setCategory(result.getString(6));
@@ -100,5 +105,34 @@ public class DataBaseQuery {
             System.out.print(e.getMessage());
         }
         return null;
+    }
+
+    public void sendOrder(ArrayList<Component> comps, int size) {
+        int totalPrice = 0;
+        String components = "";
+        for(int i = 0; i < comps.size(); i++) {
+            totalPrice += comps.get(i).getPrice();
+            components += comps.get(i).getName();
+            if(i < comps.size() - 1)
+                components += ", ";
+        }
+
+        DataBaseConnection connection = DataBaseConnection.getInstance();
+        try {
+            String query = String.format("INSERT INTO PizzaOrder (price, size, components) values(%d, %d, '%s')", totalPrice, size, components);
+            connection.getStatement().execute(query);
+        } catch (SQLException e) {
+            System.err.print(e.getMessage());
+        }
+    }
+
+    public void attachPhone(int count, String phone, int id) {
+        DataBaseConnection connection = DataBaseConnection.getInstance();
+        try {
+            String query = String.format("UPDATE PizzaOrder SET count = %d, phone = '%s' where id = %d", count, phone, id) ;
+            connection.getStatement().executeQuery(query);
+        } catch (SQLException e){
+            System.err.print(e.getMessage());
+        }
     }
 }

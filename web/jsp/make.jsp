@@ -50,10 +50,22 @@
 			</div>
 		</c:forEach>
 		</div>
-	<div class="workplace" name="workplace">
-		<%--<div style="background-image: url(../img/components/base.png)" class="component base"></div>--%>
-<!--		<div style="background-image: url(../img/components/815710_L7UKW.png)" class="component"/> -->
+	<div class="workplace" name="workplace"></div>
+	<div class="calculation" name="calculation">
+		<div class="total-price">Итоговая стоимость: 0 руб.
+		</div>
+		<div class="selected-components">
+			<div>Вы выбрали следующие компоненты:</div>
+			<div class="order-component">
+				<img src="" alt=""/>
+			</div>
+		</div>
+		<form name="sendOrder" method="GET" action="done" id="sendOrder">
+			<input type="submit" class="send-order"/>
+			<input type="hidden" name="command" value="forward"/>
+			<input type="hidden" name="componentsId" value="" id="componentsId"/>
+			<input type="hidden" name="size" value="" id="size"/>
+		</form>
 	</div>
-	<div class="calculation" name="calculation">0</div>
 </body>
 </html>
