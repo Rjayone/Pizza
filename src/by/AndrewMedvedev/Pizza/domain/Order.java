@@ -24,6 +24,7 @@ public class Order {
 
     private ArrayList<Component> order = null;
     static public int currentOrderId = 0;
+    public int pizzaSize = 1;
 
     public void addComponent(Component comp) {
         order.add(comp);
@@ -52,7 +53,10 @@ public class Order {
         int totalPrice = 0;
         for(int i = 0; i < order.size(); i++)
             totalPrice += order.get(i).getPrice();
-        return totalPrice;
+        double scalar = 1;
+        if(pizzaSize == 2) scalar = 1.3;
+        if(pizzaSize == 3) scalar = 1.5;
+        return (int)(totalPrice * scalar);
     }
 
     public void sendOrderToDataBase(int size) {
@@ -68,5 +72,9 @@ public class Order {
         if(query != null) {
             query.attachPhone(count, phone, currentOrderId);
         }
+    }
+
+    public void clear() {
+        order.clear();
     }
 }

@@ -14,7 +14,7 @@ import java.io.IOException;
  * Created by Andrew on 09.05.2015.
  * Web-Servlet
  */
-@WebServlet(name = "ConfirmController", urlPatterns = {"/confirm"})
+@WebServlet(name = "ConfirmController", urlPatterns = {"/confirm", "/success"})
 public class ConfirmController extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.requestHandler(request, response);

@@ -36,6 +36,7 @@ public class AddComponent implements Command {
     public AddComponent(ArrayList<Integer> ids, int pizzaSize) {
         Order order = Order.getInstance();
         if(order != null) {
+            order.pizzaSize = pizzaSize;
             for(int i = 0; i < ids.size(); i++) {
                 Component comp = order.getComponentFromTableById(ids.get(i));
                 if(comp != null) {

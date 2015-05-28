@@ -13,14 +13,14 @@
 	<%--<c:set var="totalPrice" value="${orderPrice}"/>--%>
 		<p class="title">Подтверждение заказа</p>
 		<div class="order-form">
-			<form method="post" action="confirm">
+			<form method="post" action="/success" id="confirm">
 				<input type="hidden" name="command" value="confirm"/>
 				<p class="phone">Номер телефона</p>
-				<input type="tel" placeholder="+375-xx-xxx-xx-xx" class="text" id="phone"/>
+				<input type="text" placeholder="+375-xx-xxx-xx-xx" class="text" id="phone" value=""/>
 				<p class="price">Количество пицц</p>
 				<input type="text" title="" value="1" placeholder="1" class="text" id="count"/>
-				<p class="total-price">Сумма заказа составляет ${orderPrice} руб.</p>
-				<input type="submit" class="confirm-button"/>
+				<p class="total-price" value="${orderPrice}">Сумма заказа составляет ${orderPrice} руб.</p>
+				<input type="button" id="confirm-button" value="Отправить" width="100" height="30"/>
 			</form>
 			<p class="thank">Спасибо, что выбрали наш сервис :)</p>
 		</div>

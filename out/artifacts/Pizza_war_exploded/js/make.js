@@ -1,18 +1,23 @@
 var components = [], // массив из добавленных компонентов; содержит теги img с компонентами
 	workplace, // .workplace
 	calculation; // .calculation
-var order = [];
-var sizeK = 0;
+
+var order = []; //Выбранные компоненты в заказ
+var sizeK = 0; //коэф. скалирования
+var pizzaSize = 0; //выбранный размер
 var selectedSize;
 var sendOrderData;
 
+var componentsScrollPane; //Базовый элемент
+var scrollPaneComponents = []; //Массив объектов снизу. Использовать compImg, compName
 
 //-------------------------------------------------------------------
 window.addEventListener('load', function(){
+	order = [];
 	workplace = document.querySelector('.workplace');
 	calculation = document.querySelector('.total-price');
 	components = document.querySelectorAll('.component-cell');
-	//sendOrder = document.querySelector('.send-order').addEventListener('click', sendOrder());
+	componentsScrollPane = document.getElementById('selected-components');
 	for(var i = 0; i < components.length; i++){
 		makeAdded(components[i]);
 	}
@@ -20,6 +25,7 @@ window.addEventListener('load', function(){
 	for(var i = 0; i < sizeButtons.length; i++) {
 		makeResizeable(sizeButtons[i], i);
 	}
+	sizeButtons[0].click();
 	recalculate();
 	sendOrderData = document.querySelector('.send-order');
 	sendOrderData.addEventListener('click', function() {
@@ -42,9 +48,9 @@ function makeAdded(element) {
 
 function makeResizeable(element, i) {
 	element.addEventListener('click', function() {
-		if(i == 0) sizeK = 1;
-		if(i == 1) sizeK = 1.3;
-		if(i == 2) sizeK = 1.5;
+		if(i == 0){ sizeK = 1; pizzaSize = 1;}
+		if(i == 1){ sizeK = 1.3; pizzaSize = 2;}
+		if(i == 2){ sizeK = 1.5; pizzaSize = 3;}
 
 		if(selectedSize != null){
 			selectedSize.style.backgroundColor = '#f0f0f0';
@@ -82,11 +88,50 @@ function addComponent(element){
 	//получаем параметры из сабдивов
 	var info = element.querySelector('.info');
 	var div = document.createElement('div');
+	var category = info.getAttribute('category');
 	div.className = 'layered-component';
 	div.style.backgroundImage = 'url(' + info.getAttribute('layer') + ')';
+	div.style.zIndex = category;
 	workplace.appendChild(div);
 	element.layer = div;
 
+	//make little copy
+	if(componentsScrollPane) {
+		var littleDiv = document.createElement('div');
+		littleDiv.className = 'order-component';
+		componentsScrollPane.appendChild(littleDiv);
+
+		var listCompImg = document.createElement('div');
+		listCompImg.className = 'list-component-img';
+		littleDiv.appendChild(listCompImg);
+
+
+		var Img = document.createElement('img');
+		Img.src = info.getAttribute('imgPath');
+		Img.style.width = '80px';
+		listCompImg.appendChild(Img);
+
+		var listCompInfo = document.createElement('div');
+		listCompInfo.className = 'list-component-info';
+		littleDiv.appendChild(listCompInfo);
+
+		var Info = document.createElement('p');
+		Info.id = 'list-component-info-text';
+		Info.textContent = element.querySelector('.title').getAttribute('title');
+		listCompInfo.appendChild(Info);
+
+		var trash = document.createElement('img');
+		trash.className = 'list-component-trash';
+		trash.src = '../img/trash.png';
+		littleDiv.appendChild(trash);
+
+		trash.addEventListener('click', function() {
+			delComponent(element, littleDiv);
+		});
+
+		scrollPaneComponents.push(littleDiv);
+
+	}
 	order.push(element);
 	recalculate();
 }
@@ -102,19 +147,26 @@ function checkForAdded(element) {
 }
 
 //-------------------------------------------------------------------
-function delComponent(element){
+function delComponent(element, div){
+	document.getElementById('selected-components').removeChild(div);
 	workplace.removeChild(element.layer);
-	// обнуляем положение элемента (возвращаем в список доступных компонентов)
-	element.style.position = '';
-	// делаем видимым
-	element.style.display = 'block';
-	element.style.marginTop = '20px';
-	element.style.opacity = 1;
 
-	// удаление из components
-	for(var i = 0; i < components.length; i++){
-		if(components[i] == element){
-			components.splice(i, 1);
+
+	//Если удаляем основу то должны удалиться все компоненты
+	for(var i = 0; i < order.length; i++) {
+		if (order[i] == element ) {
+			order.splice(i, 1);
+			if(element.querySelector('.title').getAttribute('title') == 'Основа') {
+				for(var j = 0; j < order.length; j++) {
+					workplace.removeChild(order[j].layer);
+				}
+
+				var orderComponents = document.getElementsByClassName('order-component');
+				for(var j = 0; j < orderComponents.length; j++)
+					orderComponents[i].parentNode.removeChild(orderComponents[j]);
+				order = [];
+				break;
+			}
 			break;
 		}
 	}
@@ -154,8 +206,13 @@ function recalculate(){
 
 
 function sendOrder() {
-	var form = $('#form');
+	var form = $('#sendOrder');
 	var componentIds = [];
+	if(order.length <= 1) {
+		alert('Вы не выбрали ни одного компонента для пиццы');
+		return;
+	}
+
 	for(var i = 0; i < order.length; i++) {
 		componentIds.push(order[i].querySelector('.info').getAttribute('componentId'));
 	}
@@ -169,5 +226,7 @@ function sendOrder() {
 	var input = $('#componentsId');
 	var size  = $('#size');
 	input.val(out);
-	size.val(sizeK);
+	size.val(pizzaSize);
+
+	form.submit();
 }

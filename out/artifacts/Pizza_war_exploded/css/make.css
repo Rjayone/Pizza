@@ -107,29 +107,7 @@
 	z-index:-1;
 }
 
-.workplace .component {
-	margin-left:-300px;
-	width:70%;
-	height:400px;
-	display:inline-block;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-	position: absolute;
-}
 
-.layered-component {
-	margin-top: 40px;
-	margin-left:-300px;
-	width:70%;
-	height:400px;
-	display:inline-block;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-	position: absolute;
-
-}
 /*-------------------------------------------------------------------*/
 .calculation{
 	position: fixed;
@@ -155,21 +133,47 @@
 	padding-left: 30px;
 	color: gray;
 	font-size: 14;
+	display: -webkit-box;;
+	height: 57%;
 }
 
 .calculation .send-order {
-	background-image: url("../img/Send.png");
-	position:absolute;
+	position: absolute;
 	right: 10px;
 	top: 8px;
-	height: 92px;
-	width: 220px;
+	height: 75px;
+	width: 180px;
+	background: transparent url("../img/Send.png") no-repeat;
+	border: solid 0px;
 }
 
 .calculation .order-component {
 	margin-top: 8px;
-	height: 60px;
-	width: 100px;
+	height: initial;
+	width: 145px;
 	background-color: #f0f0f0;
-	border: 1px solid #6c6c6c;
+	border: 1px solid #B6B6B6;
+	display: flex;
+	border-radius: 10px;
+}
+
+
+.calculation .selected-components .list-component-img {
+	width: 20px;
+	height: 41px;
+	display: table-caption;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.calculation .selected-components .list-component-info {
+	margin-top: 37%;
+	margin-left: 5px;
+}
+
+.calculation .selected-components .list-component-trash {
+	width: 55px;
+	height: 51px;
+	margin-left: 10%;
+	margin-top: 5px;
 }

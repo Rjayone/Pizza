@@ -1,0 +1,18 @@
+.head {
+  font-size: 24;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+	text-align: center;
+  	border: 0px solid;
+  	background-color: transparent;
+	margin-top: 50px;
+	color: #0064FF;
+	font-size: 22;
+}
+
+.comeback {
+	text-align: center;
+}

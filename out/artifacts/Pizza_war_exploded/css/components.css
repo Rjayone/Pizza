@@ -1,0 +1,23 @@
+.workplace .component {
+	margin-left:-300px;
+	width:70%;
+	height:400px;
+	display:inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+}
+
+.layered-component {
+	margin-top: 40px;
+	margin-left:-300px;
+	width:70%;
+	height:400px;
+	display:inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+
+}
