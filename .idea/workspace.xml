@@ -1,66 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
+    <bookmark url="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/CommandFactory.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ea78732-651d-43c7-a751-466e3fa0602b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/SuccessOrder.java" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\1400092219_b764.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\condiment\papper_black_p.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\depositphotos_45852573-Red-onion-rings-isolated.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\narezannye-shampinony.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\other\tomatnaya-pasta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\Помидор-без-мякоти.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\1400092219_b764.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\condiment\papper_black_p.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\depositphotos_45852573-Red-onion-rings-isolated.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\narezannye-shampinony.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\other\tomatnaya-pasta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\Помидор-без-мякоти.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.class" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\WEB-INF\classes\by\AndrewMedvedev\Pizza\model\Command\Command.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\WEB-INF\classes\by\AndrewMedvedev\Pizza\model\Command\CommandFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\WEB-INF\classes\by\AndrewMedvedev\Pizza\model\Command\handlers\AddComponent.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\WEB-INF\classes\by\AndrewMedvedev\Pizza\model\Command\handlers\BeginCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\WEB-INF\classes\by\AndrewMedvedev\Pizza\model\Command\handlers\SuccessOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\2417701.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\cheese\base.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\cheese\chedder.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\cheese\mozzarello.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\cheese\parmezan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\condiment\bazilik_dry.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\condiment\oregano.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\meat\1cb017230f67.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\meat\815710_L7UKW.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\meat\Snovskaya.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\meat\Varenaya_Doktorskaia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\meat\bekon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\meat\kopchenaja-vetchina.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\veg\10-09-416x312.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\veg\khranenie-luka-2846.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\artifacts\Pizza_war_exploded\img\components\veg\olivia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\production\Pizza\by\AndrewMedvedev\Pizza\model\Command\Command.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\production\Pizza\by\AndrewMedvedev\Pizza\model\Command\CommandFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\production\Pizza\by\AndrewMedvedev\Pizza\model\Command\handlers\AddComponent.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\production\Pizza\by\AndrewMedvedev\Pizza\model\Command\handlers\BeginCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\out\production\Pizza\by\AndrewMedvedev\Pizza\model\Command\handlers\SuccessOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\2417701.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\cheese\base.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\cheese\chedder.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\cheese\mozzarello.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\cheese\parmezan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\condiment\bazilik_dry.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\condiment\oregano.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\meat\1cb017230f67.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\meat\815710_L7UKW.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\meat\Snovskaya.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\meat\Varenaya_Doktorskaia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\meat\bekon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\meat\kopchenaja-vetchina.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\veg\10-09-416x312.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\veg\khranenie-luka-2846.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\web\img\components\veg\olivia.jpg" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\src\by\AndrewMedvedev\Pizza\model\Command\Command.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/Command.java" />
+      <change type="MOVED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\src\by\AndrewMedvedev\Pizza\model\Command\CommandFactory.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/CommandFactory.java" />
+      <change type="MOVED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\src\by\AndrewMedvedev\Pizza\model\Command\handlers\AddComponent.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/AddComponent.java" />
+      <change type="MOVED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\src\by\AndrewMedvedev\Pizza\model\Command\handlers\BeginCommand.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/BeginCommand.java" />
+      <change type="MOVED" beforePath="C:\Users\Andrew\Documents\Idea\Pizza\src\by\AndrewMedvedev\Pizza\model\Command\handlers\SuccessOrder.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/SuccessOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/veg/Bulgarian-red-pepper.png" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/veg/Bulgarian-red-pepper.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/veg/Bulgarian-red-pepper.png" afterPath="$PROJECT_DIR$/web/img/components/veg/Bulgarian-red-pepper.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/controller/ConfirmController.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/controller/ConfirmController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/controller/ConfirmController.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/controller/ConfirmController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/controller/Controller.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/controller/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/controller/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/controller/MakeController.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/controller/MakeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/controller/MakeController.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/controller/MakeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/domain/Order.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/domain/Order.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/domain/Order.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/domain/Order.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/Send.png" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/Send.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/Send.png" afterPath="$PROJECT_DIR$/web/img/Send.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/cheese/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/cheese/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/condiment/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/condiment/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/layer/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/layer/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/meat/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/meat/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/other/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/other/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/veg/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/veg/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/cheese/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/cheese/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/condiment/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/condiment/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/layer/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/layer/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/meat/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/meat/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/other/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/other/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/veg/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/components/veg/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/Utils/Utils.class" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/WEB-INF/classes/by/AndrewMedvedev/Pizza/Utils/Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/Utils/Utils.class" afterPath="$PROJECT_DIR$/out/production/Pizza/by/AndrewMedvedev/Pizza/Utils/Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/veg/tomato.png" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/img/components/veg/tomato.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/components/veg/tomato.png" afterPath="$PROJECT_DIR$/web/img/components/veg/tomato.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/ConfirmController.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/ConfirmController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/MakeController.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/MakeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Utils/Utils.java" afterPath="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Utils/Utils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/js/confirm.js" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/js/confirm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/confirm.js" afterPath="$PROJECT_DIR$/web/js/confirm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/done.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/done.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/done.jsp" afterPath="$PROJECT_DIR$/web/jsp/done.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/css/make.css" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/css/make.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/make.css" afterPath="$PROJECT_DIR$/web/css/make.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/js/make.js" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/js/make.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/make.js" afterPath="$PROJECT_DIR$/web/js/make.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/make.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Pizza_war_exploded/jsp/make.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/make.jsp" afterPath="$PROJECT_DIR$/web/jsp/make.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pizza.iws" />
@@ -97,11 +123,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="done.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/done.jsp">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="578">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="612">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeginCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/BeginCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="425">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1003">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#631#632#0" expanded="false" />
+                <element signature="e#663#664#0" expanded="false" />
+                <element signature="e#1583#1584#0" expanded="false" />
+                <element signature="e#1615#1616#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
+              <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <element signature="e#330#331#0" expanded="false" />
+                <element signature="e#355#356#0" expanded="false" />
+                <element signature="e#386#387#0" expanded="false" />
+                <element signature="e#413#414#0" expanded="false" />
+                <element signature="e#442#443#0" expanded="false" />
+                <element signature="e#470#471#0" expanded="false" />
+                <element signature="e#504#505#0" expanded="false" />
+                <element signature="e#534#535#0" expanded="false" />
+                <element signature="e#566#567#0" expanded="false" />
+                <element signature="e#594#595#0" expanded="false" />
+                <element signature="e#629#630#0" expanded="false" />
+                <element signature="e#660#661#0" expanded="false" />
+                <element signature="e#700#701#0" expanded="false" />
+                <element signature="e#736#737#0" expanded="false" />
+                <element signature="e#769#770#0" expanded="false" />
+                <element signature="e#797#798#0" expanded="false" />
+                <element signature="e#837#838#0" expanded="false" />
+                <element signature="e#869#870#0" expanded="false" />
+                <element signature="e#908#909#0" expanded="false" />
+                <element signature="e#942#943#0" expanded="false" />
+                <element signature="e#988#989#0" expanded="false" />
+                <element signature="e#1026#1027#0" expanded="false" />
+                <element signature="e#1068#1069#0" expanded="false" />
+                <element signature="e#1102#1103#0" expanded="false" />
+                <element signature="e#1150#1151#0" expanded="false" />
+                <element signature="e#1190#1191#0" expanded="false" />
+                <element signature="e#1248#1249#0" expanded="false" />
+                <element signature="e#1298#1299#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -110,43 +213,31 @@
       <file leaf-file-name="ConfirmController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/ConfirmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="612">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="612">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/success.jsp">
+      <file leaf-file-name="MakeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/MakeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="612">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuccessOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/SuccessOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="408">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="612">
+              <caret line="16" column="58" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="58" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="357">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,28 +245,18 @@
       <file leaf-file-name="welcom.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/welcom.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="918">
-              <caret line="42" column="71" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="71" />
+            <state vertical-scroll-proportion="-13.192307" vertical-offset="337" max-vertical-offset="918">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="success.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/success.css">
+      <file leaf-file-name="success.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/jsp/success.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="make.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/css/make.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45799458" vertical-offset="2398" max-vertical-offset="3128">
-              <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.32922536" vertical-offset="0" max-vertical-offset="578">
+              <caret line="11" column="69" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -204,19 +285,21 @@
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/MakeController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/css/confirm.css" />
-        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java" />
         <option value="$PROJECT_DIR$/web/js/make.js" />
-        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java" />
-        <option value="$PROJECT_DIR$/web/js/confirm.js" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/SuccessOrder.java" />
         <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/ConfirmController.java" />
-        <option value="$PROJECT_DIR$/web/jsp/done.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/make.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/success.jsp" />
         <option value="$PROJECT_DIR$/web/css/success.css" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/SuccessOrder.java" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/web/js/confirm.js" />
+        <option value="$PROJECT_DIR$/web/jsp/done.jsp" />
+        <option value="$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java" />
         <option value="$PROJECT_DIR$/web/css/make.css" />
       </list>
     </option>
@@ -265,7 +348,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,6 +378,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,7 +493,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="DataBase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,29 +515,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Command" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizza" />
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -426,9 +541,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1076,12 +1239,24 @@
       <workItem from="1432672202653" duration="6436000" />
       <workItem from="1432749348127" duration="13971000" />
       <workItem from="1432809442182" duration="2111000" />
-      <workItem from="1432842176308" duration="538000" />
+      <workItem from="1432842176308" duration="1129000" />
+      <workItem from="1432843999092" duration="6130000" />
+      <workItem from="1432890105403" duration="1246000" />
+      <workItem from="1433237081049" duration="924000" />
+      <workItem from="1433269450804" duration="6631000" />
+      <workItem from="1433311035709" duration="165000" />
+      <workItem from="1433407220062" duration="32000" />
+      <workItem from="1433416058023" duration="253000" />
+      <workItem from="1433416657125" duration="633000" />
+      <workItem from="1433422862095" duration="88000" />
+      <workItem from="1433423339628" duration="313000" />
+      <workItem from="1433789624472" duration="1565000" />
+      <workItem from="1433793599355" duration="2417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147906000" />
+    <option name="totallyTimeSpent" value="168894000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1105,12 +1280,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22025724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1119,7 +1293,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16398714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36173633" sideWeight="0.7125567" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21104388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1130,11 +1303,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28778136" sideWeight="0.7889561" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28778136" sideWeight="0.7889561" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22025724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22990353" sideWeight="0.7125567" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1187,18 +1362,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java</url>
-          <line>129</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="84" />
+      <option name="time" value="92" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1207,7 +1374,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/BeginCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="391">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
@@ -1235,14 +1402,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/CommandFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="425">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/BeginCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="391">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
@@ -1352,20 +1519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="400">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1003">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/AJAX.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2057">
@@ -1377,13 +1530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="204" max-vertical-offset="918">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1415,32 +1561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/confirm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8606966" vertical-offset="1037" max-vertical-offset="2380">
-          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.253012" vertical-offset="272" max-vertical-offset="1360">
-          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1451,55 +1575,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/confirm.js">
+    <entry file="file://$PROJECT_DIR$/web/css/success.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="646">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/CommandFactory.java">
+    <entry file="file://$PROJECT_DIR$/web/js/confirm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1469879" vertical-offset="0" max-vertical-offset="697">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="646">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/done.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="578">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="-8.5" vertical-offset="85" max-vertical-offset="612">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/css/make.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69638556" vertical-offset="0" max-vertical-offset="415">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2494" max-vertical-offset="3111">
+          <caret line="163" column="20" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22895622" vertical-offset="0" max-vertical-offset="594">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49002218" vertical-offset="102" max-vertical-offset="748">
+          <caret line="25" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/SuccessOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/AddComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="19" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="2618">
+          <caret line="116" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1377">
+          <caret line="37" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/make.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4574468" vertical-offset="712" max-vertical-offset="1173">
-          <caret line="52" column="91" selection-start-line="52" selection-start-column="91" selection-end-line="52" selection-end-column="91" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="582" max-vertical-offset="1173">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/AddComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/DataBase/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0650603" vertical-offset="68" max-vertical-offset="833">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
+          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#413#414#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#470#471#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#629#630#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+            <element signature="e#736#737#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#908#909#0" expanded="false" />
+            <element signature="e#942#943#0" expanded="false" />
+            <element signature="e#988#989#0" expanded="false" />
+            <element signature="e#1026#1027#0" expanded="false" />
+            <element signature="e#1068#1069#0" expanded="false" />
+            <element signature="e#1102#1103#0" expanded="false" />
+            <element signature="e#1150#1151#0" expanded="false" />
+            <element signature="e#1190#1191#0" expanded="false" />
+            <element signature="e#1248#1249#0" expanded="false" />
+            <element signature="e#1298#1299#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/ConfirmController.java">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/domain/DataBaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1003">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
+            <element signature="e#663#664#0" expanded="false" />
+            <element signature="e#1583#1584#0" expanded="false" />
+            <element signature="e#1615#1616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/Command/handlers/BeginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="11" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/MakeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="612">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1507,72 +1755,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="357">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/MakeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18072289" vertical-offset="61" max-vertical-offset="612">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/BeginCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/ConfirmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5493976" vertical-offset="10" max-vertical-offset="425">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="612">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="612">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/welcom.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="918">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="71" />
+        <state vertical-scroll-proportion="-13.192307" vertical-offset="337" max-vertical-offset="918">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/AndrewMedvedev/Pizza/model/Command/handlers/SuccessOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/success.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/make.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45799458" vertical-offset="2398" max-vertical-offset="3128">
-          <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.32922536" vertical-offset="0" max-vertical-offset="578">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -1643,7 +1849,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>java-json</last-edited>
+          <last-edited>mysql-connector-java-5.1.22-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
