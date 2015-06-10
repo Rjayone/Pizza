@@ -15,10 +15,12 @@
 		<div class="order-form">
 			<form method="post" action="/success" id="confirm">
 				<input type="hidden" name="command" value="confirm"/>
+				<input type="hidden" name="phone" value="1" id="requestPhone"/>
+				<input type="hidden" name="count" value="1" id="requestCount"/>
 				<p class="phone">Номер телефона</p>
-				<input type="text" placeholder="+375-xx-xxx-xx-xx" class="text" id="phone" value=""/>
+				<input type="text" placeholder="+375-xx-xxx-xx-xx" class="text" value="" id="phone" />
 				<p class="price">Количество пицц</p>
-				<input type="text" title="" value="1" placeholder="1" class="text" id="count"/>
+				<input type="text" value="1" placeholder="1" class="text" id="count"/>
 				<p class="total-price" value="${orderPrice}">Сумма заказа составляет ${orderPrice} руб.</p>
 				<input type="button" id="confirm-button" value="Отправить" width="100" height="30"/>
 			</form>

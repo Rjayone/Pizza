@@ -17,8 +17,8 @@ window.addEventListener('load', function(){
 	};
 
 	var confirmBtn = document.getElementById('confirm-button').addEventListener('click', function() {
-		var count = $('#count');
-		var phone = $('#phone');
+		var count = document.getElementById('count').value;
+		var phone = document.getElementById('phone').value;
 
 		if(validation == false) {
 			alert('Поля заполнены не коректно');
@@ -26,8 +26,8 @@ window.addEventListener('load', function(){
 		}
 
 		var form = $('#confirm');
-		count.val(count.value);
-		phone.val(phone.value);
+		document.getElementById('requestPhone').value = phone;
+		document.getElementById('requestCount').value = count;
 		form.submit();
 	});
 });

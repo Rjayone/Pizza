@@ -1,7 +1,7 @@
 package by.AndrewMedvedev.Pizza.controller;
 
-import by.AndrewMedvedev.Pizza.model.Command.Command;
-import by.AndrewMedvedev.Pizza.model.Command.CommandFactory;
+import by.AndrewMedvedev.Pizza.Command.Command;
+import by.AndrewMedvedev.Pizza.Command.CommandFactory;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

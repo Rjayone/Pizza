@@ -130,9 +130,23 @@ public class DataBaseQuery {
         DataBaseConnection connection = DataBaseConnection.getInstance();
         try {
             String query = String.format("UPDATE PizzaOrder SET count = %d, phone = '%s' where id = %d", count, phone, id) ;
-            connection.getStatement().executeQuery(query);
+            connection.getStatement().execute(query);
         } catch (SQLException e){
             System.err.print(e.getMessage());
         }
+    }
+
+    public int getLastIdToUpdate() {
+        DataBaseConnection connection = DataBaseConnection.getInstance();
+        try {
+            String query = "SELECT id FROM pizzaorder ORDER BY id DESC LIMIT 1";
+            ResultSet result = connection.getStatement().executeQuery(query);
+            result.next();
+            int id = result.getInt(1);
+            return id;
+        } catch (SQLException e){
+            System.err.print(e.getMessage());
+        }
+        return -1;
     }
 }

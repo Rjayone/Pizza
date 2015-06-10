@@ -63,13 +63,14 @@ public class Order {
         DataBaseQuery query = DataBaseQuery.getInstance();
         if(query != null){
             query.sendOrder(order, size);
-            currentOrderId++;
+            currentOrderId = query.getLastIdToUpdate();
         }
     }
 
     public void updateOrderData(String phone, int count) {
         DataBaseQuery query = DataBaseQuery.getInstance();
         if(query != null) {
+            currentOrderId = query.getLastIdToUpdate();
             query.attachPhone(count, phone, currentOrderId);
         }
     }

@@ -1,7 +1,7 @@
 package by.AndrewMedvedev.Pizza.controller;
 
-import by.AndrewMedvedev.Pizza.model.Command.Command;
-import by.AndrewMedvedev.Pizza.model.Command.CommandFactory;
+import by.AndrewMedvedev.Pizza.Command.Command;
+import by.AndrewMedvedev.Pizza.Command.CommandFactory;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.logging.Logger;
 
 /**
  * Created by Andrew on 09.05.2015.
